@@ -36,11 +36,24 @@
     background-color: white;
     color: #1abc9c;
 }
+.my_download{
+    padding: 0.25rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 2px solid white;
+    color: white;
+    transition: 0.2s;
+}
+.my_download:hover{
+    border: 2px solid #1abc9c;
+    background-color: white;
+    color: #1abc9c;
+}
 .my_circle{
     border: 1px solid white;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
     text-align: center;
     vertical-align: middle;
     align-items: center;
